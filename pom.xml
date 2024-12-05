@@ -31,10 +31,19 @@
          </dependency>
 
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.25</version>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.36</version>
+            <scope>provided</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.4</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.hibernate.javax.persistence</groupId>
